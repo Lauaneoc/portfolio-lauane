@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Krona+One&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <title>Portfólio</title>
+</head>
+<body>
+  <header class="cabecalho">
+    <img class='cabecalho__menu__open' src="./assets/menu-mobile.svg" alt="icone do menu mobile">
+    <img class="cabecalho__menu__exit" src="./assets/menu-x.svg" alt="icone de fechar menu mobile">
+    <nav>
+      <ul class="cabecalho__lista js-tabmenu">
+        <li><a class='cabecalho__lista__link' href="#home">Home</a></li>
+        <li><a class='cabecalho__lista__link' href="#sobre-mim">Sobre mim</a></li>
+        <li><a class='cabecalho__lista__link' href="#projetos">Projetos</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main class="container js-tabcontent" >
+    <section id="home">
+      <div class="container__flex" >
+        <div class="container__content" >
+          <h1 class="container__content__titulo">Web Developer<strong> Lauane Oliveira</strong></h1>
+          <p class="paragrafo">Olá! seja bem vindo(a) ao meu portfólio. Sou desenvolvedora Front-end com conhecimento em HTML, CSS, javaScript e React. Ajudo pequenos negócios e designers a colocarem em prática boas ideias.</p>
+          <div class='container__links'>
+            <h2 class="container__links__subtitulo">Acesse minhas redes: </h2>
+            <a class='container__links__navegacao' target="_blank" href="https://www.instagram.com/lauaneoliveira._">
+              <img src="./assets/instagram.png" alt="Logo do instagram">
+              Instagram
+            </a>
+            <a class='container__links__navegacao' target="_blank" href="https://github.com/lauaneoc">
+              <img src="./assets/github.png" alt="logo do github">
+              GitHub
+            </a>
+            <a class='container__links__navegacao' target="_blank" href="https://www.linkedin.com/in/lauane-oliveira-/">
+              <img src="./assets/linkedin.png" alt="logo do linkedin">
+              Linkedin
+            </a>
+          </div>
+        </div>
+        <img class='section__image' src="./assets/Imagem.svg" alt="Foto de perfil">
+      </div>
+    </section>
+
+    <section id="sobre-mim">
+      <div class="container__flex container__sobremim">
+        <img class='section__image'  src="./assets/Imagem.svg" alt="Foto de perfil de Lauane Oliveira">
+        <div class="container__content">
+          <h2 class="sessao__titulo">Sobre mim</h2>
+          <p class="paragrafo">Sou estudante do curso de Sistemas de Informação no Instituto Federal de Educação, Ciência e Tecnologia da Bahia. Atualmente trabalho com desenvolvimento front-end na empresa Hybrid Development, com foco em melhoria de perfomance, componentização e interface do usuário utilizando as seguintes tecnologias: HTML, CSS, JavaScript e React. </p>
+          <p class="paragrafo"> Meu objetivo é se tornar desenvolvedora full-stack, atuando em projetos desafiadores que me permitam aplicar minhas habilidades e conhecimentos. Estou sempre me atualizando com as novas tendências e tecnologias do mercado, por isso continuo estudando e me especializando nessa área.</p>
+        </div>
+      </div>
+    </section>
+    <section id="projetos">
+        <h2 class="sessao__titulo">Projetos</h2>
+
+      <div class="projetos__container__flex">
+          <div class="projetos__container">
+          <h3 class="projetos__container__titulo">rocketCoffee</h3>
+          <img class="projetos__container__img" src="./assets/rocketcoffee.png" alt="">
+          <nav >
+            <ul class="projetos__lista__tecnologias">
+              <li>HTML</li>
+              <li>CSS</li>
+            </ul>
+          </nav>
+          <a class="projetos__link" target="_blank" href="https://lauaneoc.github.io/rocket-coffee/">Acessar o projeto</a>
+        </div>
+
+        <div class="projetos__container">
+          <h3 class="projetos__container__titulo">Animais Fantásticos</h3>
+          <img class="projetos__container__img" src="./assets/animais.png" alt="">
+          <nav >
+            <ul class="projetos__lista__tecnologias">
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>JavaScript</li>
+            </ul>
+          </nav>
+          <a class="projetos__link" target="_blank" href="https://lauaneoc.github.io/landing-page-origamid/">Acessar o projeto</a>
+        </div>
+
+        <div class="projetos__container">
+          <h3 class="projetos__container__titulo">Formulário Camp.in</h3>
+          <img class="projetos__container__img" src="./assets/formulario.png" alt="">
+          <nav >
+            <ul class="projetos__lista__tecnologias">
+              <li>HTML</li>
+              <li>CSS</li>
+            </ul>
+          </nav>
+          <a class="projetos__link" target="_blank" href="https://formulario-rocket.vercel.app/">Acessar o projeto</a>
+        </div>
+
+        <div class="projetos__container">
+          <h3 class="projetos__container__titulo">Alura Midi</h3>
+          <img class="projetos__container__img" src="./assets/som.png" alt="">
+          <nav >
+            <ul class="projetos__lista__tecnologias">
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>JavaScript</li>
+            </ul>
+          </nav>
+          <a class="projetos__link" target="_blank" href="https://alura-midi-pearl.vercel.app/">Acessar o projeto</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills">
+      <h2 class="sessao__titulo">Minhas Skills</h2>
+    </section>
+
+
+  </main>
+  <footer class="rodape">
+    <p>Desenvolvido por Lauane Oliveira</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
+
